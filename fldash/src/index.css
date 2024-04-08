@@ -1,0 +1,33 @@
+/* index.css */
+
+/* General styles */
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+.Header {
+  background-color: rgba(0, 0, 0, 0.2); /* Transparent background */
+  padding: 20px;
+}
+
+/* SplitContainers styles */
+.SplitContainers {
+  display: flex;
+  flex: 1;
+}
+
+.LeftContainer,
+.RightContainer {
+  flex: 1;
+  padding: 20px;
+}
+
+.LeftContainer {
+  background-color: #f0f0f0; /* Example background color for left container */
+}
+
+.RightContainer {
+  background-color: #eaeaea; /* Example background color for right container */
+}
